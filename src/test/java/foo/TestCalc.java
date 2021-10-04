@@ -14,7 +14,7 @@ public class TestCalc {
     @Test
     public  void  teststruct(){
         Calc a=new Calc();
-        assertEquals(a.subtract(1,2),3);
+        assertEquals(a.subtract(1,2),- 1);
 
     }
 }
